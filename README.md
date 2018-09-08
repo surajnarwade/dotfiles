@@ -13,3 +13,7 @@ Tools:
 * docker
 * byobu
 * VirtualBox
+
+Cert-Tools:
+* cfssl
+* cfssljson
