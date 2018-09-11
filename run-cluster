@@ -1,0 +1,12 @@
+if [ $1 == "up" ]; then
+
+oc cluster up --base-dir=$HOME/oscluster
+oc cluster add --base-dir=$HOME/oscluster service-catalog
+oc cluster add --base-dir=$HOME/oscluster template-service-broker
+oc cluster add --base-dir=$HOME/oscluster automation-service-broker
+
+fi
+
+if [ $1 == "down" ]; then
+    oc cluster down
+fi
