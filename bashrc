@@ -23,6 +23,9 @@ GIT_PROMPT_ONLY_IN_REPO=1
 alias gpum='git pull --ff upstream master'
 alias gpom='git pull --ff origin master'
 alias gcm='git checkout master'
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
 
 # Pull PR 
 
